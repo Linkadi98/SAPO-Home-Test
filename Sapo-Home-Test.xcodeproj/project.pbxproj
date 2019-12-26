@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24253A8523B464E7009B843D /* DistrictsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24253A8423B464E7009B843D /* DistrictsViewController.swift */; };
+		24253A8823B46AA0009B843D /* GenericViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24253A8723B46AA0009B843D /* GenericViewModel.swift */; };
+		24253A8B23B470C0009B843D /* SHTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24253A8923B470C0009B843D /* SHTCell.swift */; };
+		24253A8C23B470C0009B843D /* SHTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24253A8A23B470C0009B843D /* SHTCell.xib */; };
+		24253A8E23B4711E009B843D /* DistrictViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24253A8D23B4711E009B843D /* DistrictViewModel.swift */; };
+		2440A1A923B3C7550089C74F /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954F123B31B4500B1EBB5 /* Cities.swift */; };
+		2440A1AB23B3CF2B0089C74F /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2440A1AA23B3CF2B0089C74F /* UICollectionView+Extension.swift */; };
+		2463688F23B48DA90064D548 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2463688E23B48DA90064D548 /* GenderViewController.swift */; };
+		2463689223B48E2A0064D548 /* NotificationCenter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2463689123B48E2A0064D548 /* NotificationCenter+Extension.swift */; };
+		2463689523B4A4310064D548 /* SHTRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2463689423B4A4310064D548 /* SHTRadioButton.swift */; };
+		2463689723B4AC5E0064D548 /* GeneralInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2463689623B4AC5E0064D548 /* GeneralInfoViewController.swift */; };
+		2463689923B4B3A20064D548 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2463689823B4B3A20064D548 /* UILabel+Extension.swift */; };
+		24F9549B23B2F5FB00B1EBB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F9549A23B2F5FB00B1EBB5 /* AppDelegate.swift */; };
+		24F9549D23B2F5FB00B1EBB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F9549C23B2F5FB00B1EBB5 /* SceneDelegate.swift */; };
+		24F954A223B2F5FB00B1EBB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F954A023B2F5FB00B1EBB5 /* Main.storyboard */; };
+		24F954A423B2F5FC00B1EBB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F954A323B2F5FC00B1EBB5 /* Assets.xcassets */; };
+		24F954A723B2F5FC00B1EBB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F954A523B2F5FC00B1EBB5 /* LaunchScreen.storyboard */; };
+		24F954B223B2F5FC00B1EBB5 /* Sapo_Home_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954B123B2F5FC00B1EBB5 /* Sapo_Home_TestUITests.swift */; };
+		24F954CA23B2F8F000B1EBB5 /* GenericCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954C923B2F8F000B1EBB5 /* GenericCollectionViewDataSource.swift */; };
+		24F954CD23B2FD6D00B1EBB5 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954CC23B2FD6D00B1EBB5 /* Observable.swift */; };
+		24F954DA23B300FA00B1EBB5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954D823B300FA00B1EBB5 /* LoginViewController.swift */; };
+		24F954DD23B3053600B1EBB5 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954DC23B3053600B1EBB5 /* NavigationViewController.swift */; };
+		24F954DF23B30AAF00B1EBB5 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954DE23B30AAF00B1EBB5 /* UITextField+Extension.swift */; };
+		24F954E123B30D2800B1EBB5 /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954E023B30D2800B1EBB5 /* UIScrollView+Extension.swift */; };
+		24F954E323B30EE700B1EBB5 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954E223B30EE700B1EBB5 /* UIViewController+Extension.swift */; };
+		24F954EB23B3170E00B1EBB5 /* SHTPlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954E923B3170E00B1EBB5 /* SHTPlaceCell.swift */; };
+		24F954EC23B3170E00B1EBB5 /* SHTPlaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24F954EA23B3170E00B1EBB5 /* SHTPlaceCell.xib */; };
+		24F954F023B31B0300B1EBB5 /* CitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954EF23B31B0300B1EBB5 /* CitiesViewModel.swift */; };
+		24F954F423B31E4800B1EBB5 /* CitiesCollectionViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954ED23B31A4800B1EBB5 /* CitiesCollectionViewDatasource.swift */; };
+		24F954F823B31FAF00B1EBB5 /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954F723B31FAF00B1EBB5 /* District.swift */; };
+		24F954FA23B321A500B1EBB5 /* DistrictsCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954F923B321A500B1EBB5 /* DistrictsCollectionViewDataSource.swift */; };
+		24F954FC23B3223600B1EBB5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954FB23B3223600B1EBB5 /* APIManager.swift */; };
+		24F954FE23B3271800B1EBB5 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F954FD23B3271800B1EBB5 /* CitiesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24F954AE23B2F5FC00B1EBB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24F9548F23B2F5FB00B1EBB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24F9549623B2F5FB00B1EBB5;
+			remoteInfo = "Sapo-Home-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24253A8423B464E7009B843D /* DistrictsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictsViewController.swift; sourceTree = "<group>"; };
+		24253A8723B46AA0009B843D /* GenericViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewModel.swift; sourceTree = "<group>"; };
+		24253A8923B470C0009B843D /* SHTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHTCell.swift; sourceTree = "<group>"; };
+		24253A8A23B470C0009B843D /* SHTCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHTCell.xib; sourceTree = "<group>"; };
+		24253A8D23B4711E009B843D /* DistrictViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictViewModel.swift; sourceTree = "<group>"; };
+		2440A1AA23B3CF2B0089C74F /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		2463688E23B48DA90064D548 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
+		2463689123B48E2A0064D548 /* NotificationCenter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+Extension.swift"; sourceTree = "<group>"; };
+		2463689423B4A4310064D548 /* SHTRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHTRadioButton.swift; sourceTree = "<group>"; };
+		2463689623B4AC5E0064D548 /* GeneralInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfoViewController.swift; sourceTree = "<group>"; };
+		2463689823B4B3A20064D548 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		24F9549723B2F5FB00B1EBB5 /* Sapo-Home-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sapo-Home-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F9549A23B2F5FB00B1EBB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24F9549C23B2F5FB00B1EBB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24F954A123B2F5FB00B1EBB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24F954A323B2F5FC00B1EBB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24F954A623B2F5FC00B1EBB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24F954A823B2F5FC00B1EBB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F954AD23B2F5FC00B1EBB5 /* Sapo-Home-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sapo-Home-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24F954B123B2F5FC00B1EBB5 /* Sapo_Home_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sapo_Home_TestUITests.swift; sourceTree = "<group>"; };
+		24F954B323B2F5FC00B1EBB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F954C923B2F8F000B1EBB5 /* GenericCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		24F954CC23B2FD6D00B1EBB5 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		24F954D823B300FA00B1EBB5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		24F954DC23B3053600B1EBB5 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		24F954DE23B30AAF00B1EBB5 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		24F954E023B30D2800B1EBB5 /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extension.swift"; sourceTree = "<group>"; };
+		24F954E223B30EE700B1EBB5 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		24F954E923B3170E00B1EBB5 /* SHTPlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHTPlaceCell.swift; sourceTree = "<group>"; };
+		24F954EA23B3170E00B1EBB5 /* SHTPlaceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SHTPlaceCell.xib; sourceTree = "<group>"; };
+		24F954ED23B31A4800B1EBB5 /* CitiesCollectionViewDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesCollectionViewDatasource.swift; sourceTree = "<group>"; };
+		24F954EF23B31B0300B1EBB5 /* CitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewModel.swift; sourceTree = "<group>"; };
+		24F954F123B31B4500B1EBB5 /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		24F954F723B31FAF00B1EBB5 /* District.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = District.swift; sourceTree = "<group>"; };
+		24F954F923B321A500B1EBB5 /* DistrictsCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictsCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		24F954FB23B3223600B1EBB5 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		24F954FD23B3271800B1EBB5 /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24F9549423B2F5FB00B1EBB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F954AA23B2F5FC00B1EBB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24253A8623B46A8D009B843D /* GenericViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				24253A8723B46AA0009B843D /* GenericViewModel.swift */,
+			);
+			path = GenericViewModel;
+			sourceTree = "<group>";
+		};
+		2463689023B48E150064D548 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				2463689123B48E2A0064D548 /* NotificationCenter+Extension.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		2463689323B4A4230064D548 /* SHTRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				2463689423B4A4310064D548 /* SHTRadioButton.swift */,
+			);
+			path = SHTRadioButton;
+			sourceTree = "<group>";
+		};
+		24F9548E23B2F5FB00B1EBB5 = {
+			isa = PBXGroup;
+			children = (
+				24F9549923B2F5FB00B1EBB5 /* Sapo-Home-Test */,
+				24F954B023B2F5FC00B1EBB5 /* Sapo-Home-TestUITests */,
+				24F9549823B2F5FB00B1EBB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24F9549823B2F5FB00B1EBB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24F9549723B2F5FB00B1EBB5 /* Sapo-Home-Test.app */,
+				24F954AD23B2F5FC00B1EBB5 /* Sapo-Home-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24F9549923B2F5FB00B1EBB5 /* Sapo-Home-Test */ = {
+			isa = PBXGroup;
+			children = (
+				24F954BC23B2F7B400B1EBB5 /* SHTEssensial */,
+				24F9549A23B2F5FB00B1EBB5 /* AppDelegate.swift */,
+				24F9549C23B2F5FB00B1EBB5 /* SceneDelegate.swift */,
+				24F954A023B2F5FB00B1EBB5 /* Main.storyboard */,
+				24F954A323B2F5FC00B1EBB5 /* Assets.xcassets */,
+				24F954A523B2F5FC00B1EBB5 /* LaunchScreen.storyboard */,
+				24F954A823B2F5FC00B1EBB5 /* Info.plist */,
+			);
+			path = "Sapo-Home-Test";
+			sourceTree = "<group>";
+		};
+		24F954B023B2F5FC00B1EBB5 /* Sapo-Home-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24F954B123B2F5FC00B1EBB5 /* Sapo_Home_TestUITests.swift */,
+				24F954B323B2F5FC00B1EBB5 /* Info.plist */,
+			);
+			path = "Sapo-Home-TestUITests";
+			sourceTree = "<group>";
+		};
+		24F954BC23B2F7B400B1EBB5 /* SHTEssensial */ = {
+			isa = PBXGroup;
+			children = (
+				24F954D723B2FFDB00B1EBB5 /* Helper */,
+				24F954BD23B2F7D900B1EBB5 /* APIs */,
+				24F954BF23B2F7F400B1EBB5 /* Modules */,
+				24F954BE23B2F7ED00B1EBB5 /* Common */,
+			);
+			path = SHTEssensial;
+			sourceTree = "<group>";
+		};
+		24F954BD23B2F7D900B1EBB5 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				24F954FB23B3223600B1EBB5 /* APIManager.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		24F954BE23B2F7ED00B1EBB5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2463689323B4A4230064D548 /* SHTRadioButton */,
+				24F954E823B3168900B1EBB5 /* SHTCityCell */,
+				24F954CB23B2FD6000B1EBB5 /* Observable */,
+				24F954C823B2F8DD00B1EBB5 /* GenericCollectionViewDataSource */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		24F954BF23B2F7F400B1EBB5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2463689023B48E150064D548 /* Notification */,
+				24253A8623B46A8D009B843D /* GenericViewModel */,
+				24F954DC23B3053600B1EBB5 /* NavigationViewController.swift */,
+				24F954C123B2F83B00B1EBB5 /* Overview */,
+				24F954C523B2F88000B1EBB5 /* Cities */,
+				24F954C323B2F86C00B1EBB5 /* Districts */,
+				24F954C623B2F89200B1EBB5 /* Gender */,
+				24F954C723B2F89F00B1EBB5 /* General_Info */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		24F954C123B2F83B00B1EBB5 /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				24F954CF23B2FE4500B1EBB5 /* Controller */,
+				24F954CE23B2FE3D00B1EBB5 /* ViewModel */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		24F954C323B2F86C00B1EBB5 /* Districts */ = {
+			isa = PBXGroup;
+			children = (
+				24F954F623B31F9A00B1EBB5 /* Controller */,
+				24F954F523B31F9200B1EBB5 /* DistrictsViewModel */,
+			);
+			path = Districts;
+			sourceTree = "<group>";
+		};
+		24F954C523B2F88000B1EBB5 /* Cities */ = {
+			isa = PBXGroup;
+			children = (
+				24F954E523B3162500B1EBB5 /* ViewModel */,
+				24F954E423B3162000B1EBB5 /* Controller */,
+			);
+			path = Cities;
+			sourceTree = "<group>";
+		};
+		24F954C623B2F89200B1EBB5 /* Gender */ = {
+			isa = PBXGroup;
+			children = (
+				2463688E23B48DA90064D548 /* GenderViewController.swift */,
+			);
+			path = Gender;
+			sourceTree = "<group>";
+		};
+		24F954C723B2F89F00B1EBB5 /* General_Info */ = {
+			isa = PBXGroup;
+			children = (
+				2463689623B4AC5E0064D548 /* GeneralInfoViewController.swift */,
+			);
+			path = General_Info;
+			sourceTree = "<group>";
+		};
+		24F954C823B2F8DD00B1EBB5 /* GenericCollectionViewDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				24F954C923B2F8F000B1EBB5 /* GenericCollectionViewDataSource.swift */,
+			);
+			path = GenericCollectionViewDataSource;
+			sourceTree = "<group>";
+		};
+		24F954CB23B2FD6000B1EBB5 /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				24F954CC23B2FD6D00B1EBB5 /* Observable.swift */,
+			);
+			path = Observable;
+			sourceTree = "<group>";
+		};
+		24F954CE23B2FE3D00B1EBB5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		24F954CF23B2FE4500B1EBB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24F954D823B300FA00B1EBB5 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24F954D723B2FFDB00B1EBB5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				24F954DE23B30AAF00B1EBB5 /* UITextField+Extension.swift */,
+				24F954E023B30D2800B1EBB5 /* UIScrollView+Extension.swift */,
+				24F954E223B30EE700B1EBB5 /* UIViewController+Extension.swift */,
+				2440A1AA23B3CF2B0089C74F /* UICollectionView+Extension.swift */,
+				2463689823B4B3A20064D548 /* UILabel+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		24F954E423B3162000B1EBB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24F954ED23B31A4800B1EBB5 /* CitiesCollectionViewDatasource.swift */,
+				24F954FD23B3271800B1EBB5 /* CitiesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24F954E523B3162500B1EBB5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				24F954EF23B31B0300B1EBB5 /* CitiesViewModel.swift */,
+				24F954F123B31B4500B1EBB5 /* Cities.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		24F954E823B3168900B1EBB5 /* SHTCityCell */ = {
+			isa = PBXGroup;
+			children = (
+				24F954E923B3170E00B1EBB5 /* SHTPlaceCell.swift */,
+				24F954EA23B3170E00B1EBB5 /* SHTPlaceCell.xib */,
+				24253A8923B470C0009B843D /* SHTCell.swift */,
+				24253A8A23B470C0009B843D /* SHTCell.xib */,
+			);
+			path = SHTCityCell;
+			sourceTree = "<group>";
+		};
+		24F954F523B31F9200B1EBB5 /* DistrictsViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				24F954F723B31FAF00B1EBB5 /* District.swift */,
+				24253A8D23B4711E009B843D /* DistrictViewModel.swift */,
+			);
+			path = DistrictsViewModel;
+			sourceTree = "<group>";
+		};
+		24F954F623B31F9A00B1EBB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24F954F923B321A500B1EBB5 /* DistrictsCollectionViewDataSource.swift */,
+				24253A8423B464E7009B843D /* DistrictsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24F9549623B2F5FB00B1EBB5 /* Sapo-Home-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F954B623B2F5FC00B1EBB5 /* Build configuration list for PBXNativeTarget "Sapo-Home-Test" */;
+			buildPhases = (
+				24F9549323B2F5FB00B1EBB5 /* Sources */,
+				24F9549423B2F5FB00B1EBB5 /* Frameworks */,
+				24F9549523B2F5FB00B1EBB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sapo-Home-Test";
+			productName = "Sapo-Home-Test";
+			productReference = 24F9549723B2F5FB00B1EBB5 /* Sapo-Home-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24F954AC23B2F5FC00B1EBB5 /* Sapo-Home-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24F954B923B2F5FC00B1EBB5 /* Build configuration list for PBXNativeTarget "Sapo-Home-TestUITests" */;
+			buildPhases = (
+				24F954A923B2F5FC00B1EBB5 /* Sources */,
+				24F954AA23B2F5FC00B1EBB5 /* Frameworks */,
+				24F954AB23B2F5FC00B1EBB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24F954AF23B2F5FC00B1EBB5 /* PBXTargetDependency */,
+			);
+			name = "Sapo-Home-TestUITests";
+			productName = "Sapo-Home-TestUITests";
+			productReference = 24F954AD23B2F5FC00B1EBB5 /* Sapo-Home-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24F9548F23B2F5FB00B1EBB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Sapo;
+				TargetAttributes = {
+					24F9549623B2F5FB00B1EBB5 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					24F954AC23B2F5FC00B1EBB5 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 24F9549623B2F5FB00B1EBB5;
+					};
+				};
+			};
+			buildConfigurationList = 24F9549223B2F5FB00B1EBB5 /* Build configuration list for PBXProject "Sapo-Home-Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24F9548E23B2F5FB00B1EBB5;
+			productRefGroup = 24F9549823B2F5FB00B1EBB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24F9549623B2F5FB00B1EBB5 /* Sapo-Home-Test */,
+				24F954AC23B2F5FC00B1EBB5 /* Sapo-Home-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24F9549523B2F5FB00B1EBB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F954EC23B3170E00B1EBB5 /* SHTPlaceCell.xib in Resources */,
+				24253A8C23B470C0009B843D /* SHTCell.xib in Resources */,
+				24F954A723B2F5FC00B1EBB5 /* LaunchScreen.storyboard in Resources */,
+				24F954A423B2F5FC00B1EBB5 /* Assets.xcassets in Resources */,
+				24F954A223B2F5FB00B1EBB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F954AB23B2F5FC00B1EBB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24F9549323B2F5FB00B1EBB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24253A8E23B4711E009B843D /* DistrictViewModel.swift in Sources */,
+				24253A8B23B470C0009B843D /* SHTCell.swift in Sources */,
+				2440A1AB23B3CF2B0089C74F /* UICollectionView+Extension.swift in Sources */,
+				2440A1A923B3C7550089C74F /* Cities.swift in Sources */,
+				2463688F23B48DA90064D548 /* GenderViewController.swift in Sources */,
+				24F954FC23B3223600B1EBB5 /* APIManager.swift in Sources */,
+				24F954F423B31E4800B1EBB5 /* CitiesCollectionViewDatasource.swift in Sources */,
+				24F954E323B30EE700B1EBB5 /* UIViewController+Extension.swift in Sources */,
+				24F954F823B31FAF00B1EBB5 /* District.swift in Sources */,
+				24F954F023B31B0300B1EBB5 /* CitiesViewModel.swift in Sources */,
+				24F954E123B30D2800B1EBB5 /* UIScrollView+Extension.swift in Sources */,
+				24F954DA23B300FA00B1EBB5 /* LoginViewController.swift in Sources */,
+				24F954FA23B321A500B1EBB5 /* DistrictsCollectionViewDataSource.swift in Sources */,
+				2463689723B4AC5E0064D548 /* GeneralInfoViewController.swift in Sources */,
+				24253A8823B46AA0009B843D /* GenericViewModel.swift in Sources */,
+				24F954FE23B3271800B1EBB5 /* CitiesViewController.swift in Sources */,
+				24F954CD23B2FD6D00B1EBB5 /* Observable.swift in Sources */,
+				2463689923B4B3A20064D548 /* UILabel+Extension.swift in Sources */,
+				2463689523B4A4310064D548 /* SHTRadioButton.swift in Sources */,
+				24F954DF23B30AAF00B1EBB5 /* UITextField+Extension.swift in Sources */,
+				2463689223B48E2A0064D548 /* NotificationCenter+Extension.swift in Sources */,
+				24F954EB23B3170E00B1EBB5 /* SHTPlaceCell.swift in Sources */,
+				24F954CA23B2F8F000B1EBB5 /* GenericCollectionViewDataSource.swift in Sources */,
+				24F9549B23B2F5FB00B1EBB5 /* AppDelegate.swift in Sources */,
+				24253A8523B464E7009B843D /* DistrictsViewController.swift in Sources */,
+				24F954DD23B3053600B1EBB5 /* NavigationViewController.swift in Sources */,
+				24F9549D23B2F5FB00B1EBB5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24F954A923B2F5FC00B1EBB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F954B223B2F5FC00B1EBB5 /* Sapo_Home_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24F954AF23B2F5FC00B1EBB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24F9549623B2F5FB00B1EBB5 /* Sapo-Home-Test */;
+			targetProxy = 24F954AE23B2F5FC00B1EBB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24F954A023B2F5FB00B1EBB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F954A123B2F5FB00B1EBB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24F954A523B2F5FC00B1EBB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24F954A623B2F5FC00B1EBB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24F954B423B2F5FC00B1EBB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24F954B523B2F5FC00B1EBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24F954B723B2F5FC00B1EBB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBAJ2RV8ZK;
+				INFOPLIST_FILE = "Sapo-Home-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sapo.Sapo-Home-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24F954B823B2F5FC00B1EBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBAJ2RV8ZK;
+				INFOPLIST_FILE = "Sapo-Home-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sapo.Sapo-Home-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24F954BA23B2F5FC00B1EBB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBAJ2RV8ZK;
+				INFOPLIST_FILE = "Sapo-Home-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sapo.Sapo-Home-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sapo-Home-Test";
+			};
+			name = Debug;
+		};
+		24F954BB23B2F5FC00B1EBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NBAJ2RV8ZK;
+				INFOPLIST_FILE = "Sapo-Home-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sapo.Sapo-Home-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sapo-Home-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24F9549223B2F5FB00B1EBB5 /* Build configuration list for PBXProject "Sapo-Home-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F954B423B2F5FC00B1EBB5 /* Debug */,
+				24F954B523B2F5FC00B1EBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24F954B623B2F5FC00B1EBB5 /* Build configuration list for PBXNativeTarget "Sapo-Home-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F954B723B2F5FC00B1EBB5 /* Debug */,
+				24F954B823B2F5FC00B1EBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24F954B923B2F5FC00B1EBB5 /* Build configuration list for PBXNativeTarget "Sapo-Home-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24F954BA23B2F5FC00B1EBB5 /* Debug */,
+				24F954BB23B2F5FC00B1EBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24F9548F23B2F5FB00B1EBB5 /* Project object */;
+}
